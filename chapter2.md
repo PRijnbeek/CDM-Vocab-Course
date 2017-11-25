@@ -118,13 +118,14 @@ SELECT *
 FROM concept 
 WHERE LOWER(concept_name) like '%fibrillation%';
 ```
-
-Try to find the standard concept_id for the clinical finding Asthma in the vocabulary. Note that if you not restrict to the concept_class_id = 'Clinical Finding' by adding AND concept_class_id = 'Clinical Finding' you get two Standard Concepts, do you understand why?
+ Let's try to find the standard concept\_id for the clinical finding Asthma in the vocabulary. Try to find this using both methods described above. You will see that if you do not restrict to the concept_class_id = 'Clinical Finding' (AND concept_class_id = 'Clinical Finding') you can get multple standard concepts!
+ 
+ What is the code we asked for?
 
 *** =possible_answers
 - 195967001
 - 257581
-- 317009
+- [317009]
 - 45877009
 *** =hint
 
@@ -132,5 +133,5 @@ Try to find the standard concept_id for the clinical finding Asthma in the vocab
 - This is not the field we asked for!
 - This exacerbation of Asthma
 - Well done. We will learn how to extract the different types of Asthma later in the course
-- This is the answer to a questonnaire. 
+- This is the answer to a question located in the measurement table. 
 
