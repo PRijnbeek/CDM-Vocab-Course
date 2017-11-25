@@ -35,6 +35,3 @@ Which of the following statements is true?
 - Only concept\_ids are stored in the clinical data tables, e.g. 8507 = male
 - Correct Answer. All the clinical data tables have a link to the person table
 - The model is evolving over time. This is driven by new use cases and input by the active OHDSI community
-
-
----
