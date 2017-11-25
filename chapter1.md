@@ -9,7 +9,7 @@ attachments :
 
 
 ---
-## <<<New Exercise>>>
+## What is the OMOP-CDM?
 
 ```yaml
 type: PureMultipleChoiceExercise
@@ -21,16 +21,27 @@ skills: 1
 
 ![alt text][logo]
 
-[logo]: https://https://github.com/PRijnbeek/VocabularyCourse/tree/master/img/omop-cdm.png "OMOP-CDM V5.2"
+[logo]: https://github.com/PRijnbeek/VocabularyCourse/raw/master/img/omop-cdm.png "OMOP-CDM V5.2"
 
 Let's first have a look at the OMOP-CDM and the role of the Standardized Vocabularies.
 
+As you can see the OMOP-CDM is divided in multiple sections. Clinical Data is stored in the Standardized Clinical Data section on the left (light blue). The Standardized Vocabulary tables are group in the orange box on the right.
+
+Which of the following statements is true?
 
 `@possible_answers`
+- This type of model is called an informatics model
+- The clinical data tables contain clincal concepts in human readible form
+- [This is a patient centric model (correct one)]
+
+
 
 `@hint`
 
 `@feedbacks`
+- A blend of a conceptual model and a data model is called an information model
+- Only concept_ids are stored in the clinal data tables, e.g. xxx = male
+- Correct Answer. As you can see all the clincal data tables have a link to the person table
 
 ---
 ## Onboarding | Tables
