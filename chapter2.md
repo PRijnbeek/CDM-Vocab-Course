@@ -2,7 +2,7 @@
 title       : The Standardized Vocabularies
 description : Understand the background of the OMOP-CDM
 ---
-## What is the OMOP-CDM?
+## Connecting to the demo CDM
 
 ```yaml
 type: PureMultipleChoiceExercise
@@ -35,3 +35,11 @@ Which of the following statements is true?
 - Only concept\_ids are stored in the clinical data tables, e.g. 8507 = male
 - Correct Answer. All the clinical data tables have a link to the person table
 - The model is evolving over time. This is driven by new use cases and input by the active OHDSI community
+
+--- type:VideoExercise lang:sql xp:50 skills:1 key:7b121737a5
+## Connecting to the demo CDM
+
+
+
+*** =video_link
+//player.vimeo.com/video/154783078
