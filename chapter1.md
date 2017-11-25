@@ -1,6 +1,8 @@
 ---
 title       : The OMOP Common Data Model
 description : Understand the background of the OMOP-CDM
+attachments :
+  slides_link : https://s3.amazonaws.com/assets.datacamp.com/course/teach/slides_example.pdf
 
 --- type:VideoExercise lang:sql xp:50 skills:1 key:7b121737a5
 ## Introduction OHDSI

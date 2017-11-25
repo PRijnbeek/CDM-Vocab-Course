@@ -1,6 +1,8 @@
 ---
 title       : The Standardized Vocabularies
 description : Understand the standardized vocabularies
+attachments :
+  slides_link : https://s3.amazonaws.com/assets.datacamp.com/course/teach/slides_example.pdf
 
 --- type:VideoExercise lang:sql xp:50 skills:1 key:909e0deb29
 ## Setting up the data connection
