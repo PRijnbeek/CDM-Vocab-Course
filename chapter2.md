@@ -1,6 +1,6 @@
 ---
 title       : The Standardized Vocabularies
-description : During this part of the course we will be studying the OHDSI Standardized Vocabularies by running queries against the SYNPUF CDM we loaded on a SQL Server instance in the Microsoft Azure cloud.<p><b>Important! You need to have DataGrip installed for this exercise and need to have the datasource added to be able to run the queries. Instructions are provided during the course.</b>
+description : During this part of the course we will be studying the OHDSI Standardized Vocabularies by running queries against the SYNPUF CDM we loaded on a SQL Server instance in the Microsoft Azure cloud. Alternatively, you could use your own CDM instance or these exercises. <p><b>Instructions on how to connect to our CDM are provided during the face-to-face course.</b>
 attachments :
   slides_link : https://s3.amazonaws.com/assets.datacamp.com/course/teach/slides_example.pdf
 
