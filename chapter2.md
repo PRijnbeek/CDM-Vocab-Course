@@ -54,7 +54,7 @@ What is the correct answer?
 --- type:PureMultipleChoiceExercise lang:sql xp:50 skills:1 key:788a621547
 ## Search by concept_code
 
-In the previous exercise we search for a concept by its OMOP defined concept\_id. Another option to find a concept is to use its source code id, e.g. the code provided by SNOMED.
+In the previous exercise we searched for a concept by its 'OMOP' concept\_id. Another option to find a concept is to use its source code, e.g. the code provided by SNOMED.
 
 It is important to understand that a concept\_code is not unique. Try to run this query to see for yourself:
 
@@ -64,7 +64,7 @@ FROM concept
 WHERE concept_code = '1001';
 ```
 
-Let's have a look at the Atrial Fibrillation example we used earlier if this is also true for that concept_code. Run this query:
+Let's have a look at the Atrial Fibrillation example we used earlier if this is also true in that case. Run this query:
 
 ```
 SELECT * 
