@@ -73,7 +73,7 @@ Suppose you have to extract all males that have had a bypass surgical procedure 
 - [PROCEDURE\_OCCURRENCE, PERSON, VISIT\_OCCURRENCE, CONCEPT]
 
 `@hint`
-Detailed information about the data model can be found on the <a href="https://github.com/OHDSI/CommonDataModel/wiki/">Github Wiki</a>.
+Detailed information about the data model can be found on the <a href="https://github.com/OHDSI/CommonDataModel/wiki/" style="color:black">Github Wiki</a>
 
 `@feedbacks`
 - How do you find the hospital visit and the bypass?

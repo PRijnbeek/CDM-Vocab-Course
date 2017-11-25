@@ -135,3 +135,10 @@ WHERE LOWER(concept_name) like '%fibrillation%';
 - Well done. We will learn how to extract the different types of Asthma later in the course
 - This is the answer to a question located in the measurement table. 
 
+
+--- type:VideoExercise lang:sql xp:50 skills:1 key:1bd0bc515b
+## Slide test
+
+
+*** =video_link
+//player.vimeo.com/video/154783078
