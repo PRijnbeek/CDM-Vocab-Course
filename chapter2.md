@@ -37,3 +37,9 @@ Which of the following statements is true?
 - The model is evolving over time. This is driven by new use cases and input by the active OHDSI community
 
 
+
+--- type:VideoExercise lang:sql xp:50 skills:1 key:909e0deb29
+## <<<New Exercise>>>
+
+*** =projector_key
+f983958a7580558ae552bf6b8f3af012
