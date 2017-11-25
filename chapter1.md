@@ -4,6 +4,37 @@ description : Understand the background of the OMOP-CDM
 attachments :
   slides_link : https://s3.amazonaws.com/assets.datacamp.com/course/teach/slides_example.pdf
 
+
+
+---
+## What is the OMOP CDM?
+
+```yaml
+type: MultipleChoiceExercise
+key: d5e5665df2
+lang: sql
+xp: 50
+skills: 1
+```
+
+
+`@instructions`
+<Image Source="/img/omop-cdm.png">
+Let's first have a look at the OMOP-CDM and the role of the Standardized Vocabularies.
+
+
+
+`@hint`
+
+`@pre_exercise_code`
+```{sql}
+
+```
+
+`@sct`
+```{sql}
+
+```
 ---
 ## Onboarding | Tables
 
