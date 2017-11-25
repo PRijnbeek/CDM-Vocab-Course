@@ -1,6 +1,6 @@
-title                : VocabularyCourse
-description          : This is an automatically generated demo course which will help you on your way to create an awesome DataCamp course.
-university           : DataCamp
+title                : Standard Vocabularies
+description          : This course will train you in using the Standardized Vocabularies used in the OMOP Common Data Model
+university           : Erasmus Medical Center, Rotterdam, The Netherlands
 difficulty_level     : 2
 time_needed          : 1 hour
 programming_language : sql
