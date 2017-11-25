@@ -3,11 +3,6 @@ title       : The OMOP Common Data Model
 description : Understand the background of the OMOP-CDM
 attachments :
   slides_link : https://s3.amazonaws.com/assets.datacamp.com/course/teach/slides_example.pdf
-
-
-
-
-
 ---
 ## What is the OMOP-CDM?
 
@@ -39,13 +34,13 @@ Which of the following statements is true?
 
 `@feedbacks`
 - A blend of a conceptual model and a data model is called an information model
-- Only concept_ids are stored in the clinal data tables, e.g. xxx = male
+- Only concept\_ids are stored in the clinical data tables, e.g. 8507 = male
 - Correct Answer. All the clinical data tables have a link to the person table
 - The model is evolving over time. This is driven by new use cases and input by the active OHDSI community
 
 
 
----
+
 ## Finding data 1
 
 ```yaml
