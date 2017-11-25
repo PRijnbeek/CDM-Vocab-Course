@@ -33,6 +33,7 @@ Which of the following statements is true?
 - This type of model is called an informatics model
 - The clinical data tables contain clincal concepts in human readible form
 - [This is a patient centric model]
+- The model is now final and will be used as is in the future
 
 
 
@@ -42,7 +43,37 @@ Which of the following statements is true?
 - A blend of a conceptual model and a data model is called an information model
 - Only concept_ids are stored in the clinal data tables, e.g. xxx = male
 - Correct Answer. All the clinical data tables have a link to the person table
+- The model is evolving over time. This is driven by new use cases and input by the active OHDSI community
 
+
+
+---
+## Finding data 1
+
+```yaml
+type: PureMultipleChoiceExercise
+key: 254b13962b
+lang: sql
+xp: 50
+skills: 1
+```
+![alt text][logo]
+
+[logo]: https://github.com/PRijnbeek/VocabularyCourse/raw/master/img/omop-cdm.png "OMOP-CDM V5.2"
+
+We focus first on the clinical data tables to test if you understand where you can find certain data elements.
+
+Suppose you have to extract all persons that have had a bypass surgical procedure during a hospital visit. Which tables should you include in your query to do that?
+
+`@possible_answers`
+- PROCEDURE_OCCURENCE, PERSON
+- VISIT_OCCURENCE, PROCEDURE_OCCURENCE
+- PROCEDURE_OCCURENCE, PERSON, CONCEPT
+- PROCEDURE_OCCURENCE, PERSON, VISIT_OCCURENCE, CONCEPT
+
+`@hint`
+You can have a look at the CDM wiki page: [link](https://github.com/OHDSI/CommonDataModel/wiki/)
+`@feedbacks`
 
 ---
 ## Variable Name Conventions
