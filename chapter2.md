@@ -1,6 +1,6 @@
 ---
 title       : The Standardized Vocabularies
-description : Understand the standardized vocabularies
+description : During this part of the course we will be studying the OHDSI Standardized Vocabularies by running queries against the SYNPUF CDM we loaded on a SQL Server instance in the Microsoft Azure cloud.
 attachments :
   slides_link : https://s3.amazonaws.com/assets.datacamp.com/course/teach/slides_example.pdf
 
@@ -138,8 +138,3 @@ WHERE LOWER(concept_name) like '%fibrillation%';
 - This is the answer to a question located in the measurement table. 
 
 
---- type:VideoExercise lang:sql xp:50 skills:1 key:1bd0bc515b
-## Slide test
-
-*** =projector_key
-2652d6f33c2c5e39bb05ef1d502f0518
