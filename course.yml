@@ -1,5 +1,5 @@
 title                : OMOP Common Data Model and Standardized Vocabularies
-description          : This course will train you to use the OMOP Common Data Model (OMOP-CDM) and its Standardized Vocabularies. Using very simple SQL queries we will help you to better understand the conventions of the CDM and its table structure. We start with an introduction of the OMOP-CDM and will then dive into the Standardize. For more information about the data model visit [link](www.ohdsi.org) 
+description          : This course will train you to use the OMOP Common Data Model (OMOP-CDM) and its Standardized Vocabularies. Using very simple SQL queries we will help you to better understand the conventions of the CDM and its table structure. We start with an introduction of the OMOP-CDM and will then dive into the Standardize. For more information about the data model visit this <a href="https://github.com/OHDSI/CommonDataModel/wiki/">link</a>
 university           : Erasmus Medical Center, Rotterdam, The Netherlands
 difficulty_level     : 2
 time_needed          : 1 hour
