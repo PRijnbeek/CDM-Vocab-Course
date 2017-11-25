@@ -11,11 +11,11 @@ f983958a7580558ae552bf6b8f3af012
 
 --- type:PureMultipleChoiceExercise lang:sql xp:50 skills:1 key:6087d6f53d
 ## Introduction
+In the figure below you see the table structure of the Standardized Vocabulary section in the CDM. This illustrates how tables are connected to each other (data model). In each table you see a number of 'keys'. A 'red' key means that this is a so-called 'primary key', i.e. each value is unique and is used to reference the data. A 'green' key is a 'foreign key' which means it links to a primary key in another table, e.g. the vocabulary_id in the concept table. The 'blue' keys represent primary keys that consists of multiple fields, i.e. the combination of these fields is unique and use to lookup data in the table.
+
 ![alt text][logo]
 
 [logo]: https://github.com/PRijnbeek/VocabularyCourse/raw/master/img/vocabulary-cdm.png "Vocabulary Table Structure"
-
-In the figure above you see the table structure of the Standardized Vocabulary section in the CDM.In each table you see a number of 'keys' in in each table. A 'red' key means that this is a so-called 'primary key', i.e. each value is unique and is used to reference the data. A 'green' key is a 'foreigh key' which means it links to a primary key in another table, e.g. the vocabulary_id in the concept table. The 'blue' keys represent primary keys that consists of multiple fields, i.e. the combination of these fields is unique and use to lookup data in the table.
 
 In the upcoming questions we will explore the following most important tables:
 
@@ -27,7 +27,7 @@ CONCEPT_ANCESTOR: Multi-step hierarchical relationships pre-processed to make tr
 
 We will ask you to run a number of simple queries to train you in using these tables.
 
-Let's start very simple. Try to find the the concept_name of concept_id = 313217 using the query below.
+Let's start very simple. Try to find the the concept\_name of concept\_id = 313217 using the query below.
 
 ```
 SELECT * 
@@ -54,3 +54,30 @@ What is the correct answer?
 - Check your query
 - Check your query
 
+
+--- type:PureMultipleChoiceExercise lang:sql xp:50 skills:1 key:788a621547
+## Search by concept_code
+
+In the previous exercise we search for a concept by its OMOP defined concept\_id. Another option to find a concept is to use its source code id, e.g. the code provided by SNOMED.
+
+Try to run this query:
+```
+SELECT * 
+FROM concept 
+WHERE concept_code = '49436004';
+```
+
+What is the vocabulary\_id of this concept?
+
+*** =possible_answers
+- [SNOMED]
+- ICD-9
+- DPD
+- RXNORM
+*** =hint
+
+*** =feedbacks
+- Note that the vocabulary\_ids are available in readible format! 
+- Check your query
+- Check your query
+- Check your query
