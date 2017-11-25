@@ -53,7 +53,7 @@ Which of the following statements is true?
 
 ---
 
-## Finding data 1
+## Finding data (1)
 
 ```yaml
 type: PureMultipleChoiceExercise
@@ -62,11 +62,9 @@ lang: sql
 xp: 50
 skills: 1
 ```
-![alt text][logo]
+Let's see if you know which tables you need to query to find your data elements of interest. We will test this by asking you to name all the tables you need to include in your query for a certain research question. We will not go into the details of really creating the full query here. (MORE OF THESE TO ADD WITH PATRICK)
 
-[logo]: https://github.com/PRijnbeek/VocabularyCourse/raw/master/img/omop-cdm.png "OMOP-CDM V5.2"
-
-We focus first on the clinical data tables to test if you understand where you can find certain data elements.
+<p><center><img src="https://github.com/PRijnbeek/VocabularyCourse/raw/master/img/omop-cdm.png" alt="OMOP-CDM" width="550" height="400"></center></p>
 
 Suppose you have to extract all males that have had a bypass surgical procedure during a hospital visit. Which tables should you include in your query to do that?
 
