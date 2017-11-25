@@ -67,7 +67,7 @@ Suppose you have to extract all males that have had a bypass surgical procedure 
 - PROCEDURE\_OCCURRENCE, PERSON
 - VISIT\_OCCURRENCE, PROCEDURE\_OCCURRENCE
 - PROCEDURE\_OCCURRENCE, PERSON, CONCEPT
-- PROCEDURE\_OCCURRENCE, PERSON, VISIT\_OCCURRENCE, CONCEPT
+- [PROCEDURE\_OCCURRENCE, PERSON, VISIT\_OCCURRENCE, CONCEPT]
 
 `@hint`
 You can have a look at the CDM wiki page in the OHDSI Github page
