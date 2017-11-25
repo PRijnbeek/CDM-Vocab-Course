@@ -39,7 +39,7 @@ Which of the following statements is true?
 - The model is evolving over time. This is driven by new use cases and input by the active OHDSI community
 
 
-
+---
 
 ## Finding data 1
 
