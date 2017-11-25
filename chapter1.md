@@ -32,7 +32,7 @@ Which of the following statements is true?
 `@possible_answers`
 - This type of model is called an informatics model
 - The clinical data tables contain clincal concepts in human readible form
-- [This is a patient centric model (correct one)]
+- [This is a patient centric model]
 
 
 
@@ -41,9 +41,46 @@ Which of the following statements is true?
 `@feedbacks`
 - A blend of a conceptual model and a data model is called an information model
 - Only concept_ids are stored in the clinal data tables, e.g. xxx = male
-- Correct Answer. As you can see all the clincal data tables have a link to the person table
+- Correct Answer. All the clinical data tables have a link to the person table
+
 
 ---
+## Variable Name Conventions
+
+```yaml
+type: PureMultipleChoiceExercise
+key: 824cbcdfdf
+lang: sql
+xp: 50
+skills: 1
+```
+There are a number of implicit and explicit conventions that have been adopted in the CDM. Developers of methods that run methods against the CDM need to understand these conventions. The table below shows the most important conventions.
+
+![alt text][logo]
+
+[logo]: https://github.com/PRijnbeek/VocabularyCourse/raw/master/img/conventions.png "Variable Name Conventions"
+
+Which of the following statements is true?
+
+
+`@possible_answers`
+
+- all fields ending with \_concept\_id refer to the VOCABULARY table
+- [a entity_id value is unique for the domain not for the whole CDM]
+- an ICD-9 code should be placed in the condition\_source\_value field
+- If we cannot map to a standard code we loose the record
+
+
+`@hint`
+
+`@feedbacks`
+- All concepts are stored in the CONCEPT table. The VOCABULARY table includes a list of the Vocabularies collected from various sources or created de novo by the OMOP community.
+- The entity\_id is primary key for that table. The same id value could for exmaple occur for a visit\_occurrence\_id or a location\_id. 
+- Only the verbatim text should be placed in the value field. The code should be place in the condition\_source\_id field which refers to a concept\_id in the CONCEPT table
+- We can still store this data in the provenance fields source\_value and source\_id (if there is a source code in the vocabulary)
+
+---
+
 ## Onboarding | Tables
 
 ```yaml
@@ -86,7 +123,8 @@ msg_success = 'Correct!'
 Ex().test_mc(3,[msg_bad, msg_bad, msg_success, msg_bad])
 ```
 
----
+
+
 ## Onboarding | Errors
 
 ```yaml
