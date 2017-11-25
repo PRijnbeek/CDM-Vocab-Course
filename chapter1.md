@@ -18,12 +18,19 @@ lang: sql
 xp: 50
 skills: 1
 ```
+<b>Data standardization</b> is the critical process of bringing data into a common format that allows for collaborative research, large-scale analytics, and sharing of sophisticated tools and methodologies. Why is it so important?
+
+<b>Healthcare data can vary greatly from one organization to the next</b>. Data are collected for different purposes, such as provider reimbursement, clinical research, and direct patient care. These data may be stored in different formats using different database systems and information models. And despite the growing use of standard terminologies in healthcare, the same concept (e.g., blood glucose) may be represented in a variety of ways from one setting to the next.
+
+We at OHDSI are deeply involved in the evolution and adoption of a Common Data Model known as the OMOP Common Data Model. We provide resources to convert a wide variety of datasets into the CDM, as well as a plethora of tools to take advantage of your data once it is in CDM format.
+
+Most importantly, we have an active community that has done many data conversions (often called ETLs) with members who are eager to help you with your CDM conversion and maintenance.
+
+The current version of the CDM (v5.2) is shown in the figure below.
 
 ![alt text][logo]
 
 [logo]: https://github.com/PRijnbeek/VocabularyCourse/raw/master/img/omop-cdm.png "OMOP-CDM V5.2"
-
-Let's first have a look at the OMOP-CDM and the role of the Standardized Vocabularies.
 
 As you can see the OMOP-CDM is divided in multiple sections. Clinical Data is stored in the Standardized Clinical Data section on the left (light blue). The Standardized Vocabulary tables are group in the orange box on the right.
 
@@ -123,6 +130,7 @@ xp: 50
 skills: 1
 key: e5ea66e23d
 ```
+TO BE REMOVED UNTIL we have a full vocab linked up in DataCamp!!
 
 If you've used DataCamp to learn [R](https://www.datacamp.com/courses/free-introduction-to-r) or [Python](https://www.datacamp.com/courses/intro-to-python-for-data-science), you'll be familiar with the interface. For SQL, however, there are a few new features you should be aware of.
 
