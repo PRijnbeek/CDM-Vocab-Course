@@ -31,11 +31,9 @@ Which of the following statements is true?
 
 `@possible_answers`
 - This type of model is called an informatics model
-- The clinical data tables contain clincal concepts in human readible form
+- The clinical data tables contain clinical concepts in human readible form
 - [This is a patient centric model]
 - The model is now final and will be used as is in the future
-
-
 
 `@hint`
 
@@ -63,19 +61,22 @@ skills: 1
 
 We focus first on the clinical data tables to test if you understand where you can find certain data elements.
 
-Suppose you have to extract all persons that have had a bypass surgical procedure during a hospital visit. Which tables should you include in your query to do that?
+Suppose you have to extract all males that have had a bypass surgical procedure during a hospital visit. Which tables should you include in your query to do that?
 
 `@possible_answers`
-- PROCEDURE\_OCCURENCE, PERSON
-- VISIT\_OCCURENCE, PROCEDURE\_OCCURENCE
-- PROCEDURE\_OCCURENCE, PERSON, CONCEPT
-- PROCEDURE\_OCCURENCE, PERSON, VISIT\_OCCURENCE, CONCEPT
+- PROCEDURE\_OCCURRENCE, PERSON
+- VISIT\_OCCURRENCE, PROCEDURE\_OCCURRENCE
+- PROCEDURE\_OCCURRENCE, PERSON, CONCEPT
+- PROCEDURE\_OCCURRENCE, PERSON, VISIT\_OCCURRENCE, CONCEPT
 
 `@hint`
-You can have a look at the CDM wiki page
+You can have a look at the CDM wiki page in the OHDSI Github page
 
 `@feedbacks`
-
+- How do you find the hospital visit and the bypass?
+- How do you extract the male?
+- How do you find the hospital visit
+- Indeed you need all these tables in you query.
 ---
 ## Variable Name Conventions
 
