@@ -6,35 +6,32 @@ attachments :
 
 
 
+
+
 ---
-## What is the OMOP CDM?
+## <<<New Exercise>>>
 
 ```yaml
-type: MultipleChoiceExercise
-key: d5e5665df2
+type: PureMultipleChoiceExercise
+key: 6924ed57f3
 lang: sql
 xp: 50
 skills: 1
 ```
 
+![alt text][logo]
 
-`@instructions`
-<Image Source="/img/omop-cdm.png">
+[logo]: https://https://github.com/PRijnbeek/VocabularyCourse/tree/master/img/omop-cdm.png "OMOP-CDM V5.2"
+
 Let's first have a look at the OMOP-CDM and the role of the Standardized Vocabularies.
 
 
+`@possible_answers`
 
 `@hint`
 
-`@pre_exercise_code`
-```{sql}
+`@feedbacks`
 
-```
-
-`@sct`
-```{sql}
-
-```
 ---
 ## Onboarding | Tables
 
