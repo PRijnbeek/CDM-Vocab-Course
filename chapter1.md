@@ -1,6 +1,13 @@
 ---
 title       : The OMOP Common Data Model
 description : Understand the background of the OMOP-CDM
+
+--- type:VideoExercise lang:sql xp:50 skills:1 key:7b121737a5
+## Introduction OHDSI
+
+*** =video_link
+//player.vimeo.com/video/244444565
+
 ---
 ## What is the OMOP-CDM?
 
