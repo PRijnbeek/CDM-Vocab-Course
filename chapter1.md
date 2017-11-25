@@ -66,13 +66,14 @@ We focus first on the clinical data tables to test if you understand where you c
 Suppose you have to extract all persons that have had a bypass surgical procedure during a hospital visit. Which tables should you include in your query to do that?
 
 `@possible_answers`
-- PROCEDURE_OCCURENCE, PERSON
-- VISIT_OCCURENCE, PROCEDURE_OCCURENCE
-- PROCEDURE_OCCURENCE, PERSON, CONCEPT
-- PROCEDURE_OCCURENCE, PERSON, VISIT_OCCURENCE, CONCEPT
+- PROCEDURE\_OCCURENCE, PERSON
+- VISIT\_OCCURENCE, PROCEDURE\_OCCURENCE
+- PROCEDURE\_OCCURENCE, PERSON, CONCEPT
+- PROCEDURE\_OCCURENCE, PERSON, VISIT\_OCCURENCE, CONCEPT
 
 `@hint`
-You can have a look at the CDM wiki page: [link](https://github.com/OHDSI/CommonDataModel/wiki/)
+You can have a look at the CDM wiki page
+
 `@feedbacks`
 
 ---
